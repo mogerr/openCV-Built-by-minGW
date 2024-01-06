@@ -30,9 +30,15 @@ openCV官方github提供了vc16的库（./opencv/build/x64/vc16/lib/`*.lib`）�
 
 主要用到两个文件夹
 
-```
-./include
+```c++
+./include		
 ./x64/mingw/lib
+```
+
+main.cpp文件：
+
+```c++
+#include <opencv2/opencv.hpp>
 ```
 
 .vscode的文件夹下配置文件

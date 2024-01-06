@@ -1,6 +1,6 @@
 # openCV-Built-by-minGW
 
-使用mingw64、CMake编译openCV源码，得到编译结果(`.h .hpp .a .dll`)，主要用于方便VSCode使用mingw（gcc、g++编译器）调用openCV库
+本仓库是本人的备份库，是编译好的opencv-4.9.0库，可直接调用，适用于VSCode或者其他使用minGW编译器的IDE。使用mingw64编译器、CMake工具，编译openCV源码，得到编译结果(`.h .hpp .a .dll`库文件)。
 
 
 

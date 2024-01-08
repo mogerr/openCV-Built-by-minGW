@@ -1,3 +1,11 @@
+# 前提说明
+
+使用别人电脑编译的二进制文件不一定能在你电脑上用，因为开发环境大概率不一致。
+
+所以，推荐使用[微软出的vcpkg工具](https://github.com/microsoft/vcpkg/tree/master)进行c/c++的开发过程中第三方包的管理。它会在你电脑上自动编译，确保能够正常运行，使用起来比自己去一个个配置然后一堆bug强。它可以在vs、vscode、clion中使用，很方便，使用起来有点像Python的pip工具。
+
+
+
 # openCV-Built-by-minGW
 
 本仓库是本人的备份库，是编译好的opencv-4.9.0库，可直接调用，适用于VSCode或者其他使用minGW编译器的IDE。使用mingw64编译器、CMake工具，编译openCV源码，得到编译结果(`.h .hpp .a .dll`库文件)。

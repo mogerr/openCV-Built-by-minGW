@@ -159,7 +159,7 @@ c_cpp_properties.json文件:
            "browse": {
                "path": [
                   //库文件
-                  "D:/openCV-Built-by-minGW/x64/minge/lib"
+                  "D:/openCV-Built-by-minGW/x64/mingw/lib"
                ]
             }
             "defines": [
